@@ -41,9 +41,9 @@
   <user username="both" password="<must-be-changed>" roles="tomcat,role1"/>
   <user username="role1" password="<must-be-changed>" roles="role1"/>
 -->
-<role rolename="users"/>
+ <role rolename="users"/>
   <user username="susanth" password="pass123" roles="users"/>
-  
+  <!--Add users to allow-->
   <role rolename="email"/>
   <user username="harisusanthzoho@gmail.com" password="Hari Susanth K S" roles="email"/>
     

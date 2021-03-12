@@ -46,6 +46,5 @@
   
   <role rolename="email"/>
   <user username="harisusanthzoho@gmail.com" password="Hari Susanth K S" roles="email"/>
-  <user username="projectmail.first@gmail.com" password="Hari Susanth K S" roles="email"/>
     
 </tomcat-users>

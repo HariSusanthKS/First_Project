@@ -17,7 +17,6 @@
 </style>
   <meta name="google-signin-client_id" content="850398037024-up0jr97g6s6fon0bmlt78vi3qr0b60n3.apps.googleusercontent.com">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  
   </head>
   <body bgcolor=" #204060">
   <div class="for"  align="center" >
@@ -28,7 +27,7 @@
             <p>User name: <input type="text" id ="j_username" name="j_username" size="20"/></p>
             <p>Password: <input type="password" id="j_password"  size="20" name="j_password"/></p>
             
-         
+         	<!--google sigin button -->
 		<p> <div id="my-signin2" ></div></p>
 		<p>  <input type="submit" id="fo" value="Submit"/></p>
 		 </form>       

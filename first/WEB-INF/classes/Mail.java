@@ -12,8 +12,8 @@ public class Mail extends HttpServlet
 ]
 		final String user="ravivijay0512222@gmail.com"; 
 		final String password="poojakannan0512";
-		String to=req.getRemoteUser();
-	   	Properties props = new Properties();
+		String to=req.getRemoteUser();//getting the mail id to whom we have to send a mail.
+	   	Properties props = new Properties(); 
 		props.put("mail.smtp.auth", "true");
 		props.put("mail.smtp.starttls.enable", "true");
 		props.put("mail.smtp.host", "smtp.gmail.com");

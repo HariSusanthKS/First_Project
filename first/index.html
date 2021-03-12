@@ -69,7 +69,7 @@ body{
 		$.ajax({
 			type: "POST",
 			url: dataString,
-			success: function(respJSON) 
+			success: function(respJSON) // getting json response and diplay it in table
 			{
 				$('#table').show();
 				$("#table").find("tr:gt(0)").remove();
@@ -96,7 +96,8 @@ body{
 </head>
 <body >
 <div class="div0">
-	<div class="div1">
+<div class="div1">
+<!--Form to enter details-->
 <form name="form1">
 <h1>Enter the your details </h1>
 	<label>First name :</label>
@@ -123,7 +124,6 @@ body{
 	<input type="button" value="ShowTable" id="convert">
 </form>
 </div>
-
 <div class="div1">
 <form action="WithOrWithOut" method="post">
 <h2>If You Want To Change Database Select the options </h2>
@@ -148,7 +148,6 @@ body{
 </form>
 </div>
 </div>
-			
 <table id="table"> 
    <br><br> 
 	<tr> 
@@ -162,7 +161,5 @@ body{
 	<th>Date Of Birth</th>	
     </tr> 
 </table>
-
-
 </body>
 </html>

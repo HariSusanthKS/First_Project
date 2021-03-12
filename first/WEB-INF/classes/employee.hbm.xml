@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 5.3//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+<hibernate-mapping>
+          <class name="Employee" table="hellohib3">
+          <id name="id" type = "int">
+          <generator class="increment"></generator>
+          </id>
+          
+          <property name="firstName" type = "string"></property>
+          <property name="lastName" type = "string"></property>
+		  <property name="email" type = "string"></property>
+		  <property name="phno" type = "int"></property>
+		  <property name="MotherName" type = "string"></property>
+		  <property name="FatherName" type = "string"></property>
+		  <property name="Address" type = "string"></property>
+		  <property name="DOB" type = "date"></property>
+		  
+          </class>
+          
+		  </hibernate-mapping>

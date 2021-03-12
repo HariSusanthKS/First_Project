@@ -85,7 +85,7 @@ public class My extends HttpServlet
 			session.save(e1);				
 			t.commit();	
 			List li=session.createQuery("from Employee").list();
-			// convert your list to json
+			// convert the list of java objects to json
 			String jsonStr = new Gson().toJson(li);
 			p.print(jsonStr);
 			System.out.println("successfully Printed saved");  

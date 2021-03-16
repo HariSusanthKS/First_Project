@@ -51,11 +51,8 @@
             <url-pattern>/*</url-pattern>
         </web-resource-collection>
         <auth-constraint>
-            <role-name>users</role-name>
-			</auth-constraint>
-		 <auth-constraint>
-        <role-name>email</role-name>
-    </auth-constraint>
+		<role-name>admin</role-name>
+	</auth-constraint>
     </security-constraint>
     <login-config>
         <auth-method>FORM</auth-method>
@@ -65,10 +62,10 @@
             <form-error-page>/error.jsp</form-error-page>
         </form-login-config>
     </login-config>
-    <security-role>
-        <role-name>users</role-name>
-    </security-role>
 	<security-role>
-		<role-name>email</role-name>
+	  <role-name>admin</role-name>
 	</security-role>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
 </web-app>    
